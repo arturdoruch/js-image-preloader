@@ -1,0 +1,17 @@
+{
+  "name": "@arturdoruch/image-preloader",
+  "description": "Displays preloader while loading images into browser memory, before loading image gallery.",
+  "keywords": ["loading image gallery preloader", "image preloader"],
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/image-preloader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturdoruch/js-image-preloader"
+  },
+  "author": {
+    "name": "Artur Doruch",
+    "email": "arturdoruch@interia.pl"
+  },
+  "license": "MIT"
+}
