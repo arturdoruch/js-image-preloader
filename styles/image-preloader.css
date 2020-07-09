@@ -1,0 +1,53 @@
+#ad-image-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    z-index: -1;
+}
+
+#ad-image-preloader.loading {
+    visibility: visible;
+    z-index: auto;
+}
+
+#ad-image-preloader__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#ad-image-preloader.loading #ad-image-preloader__overlay {
+    transition: opacity .3s;
+    opacity: 0.9;
+}
+
+#ad-image-preloader__container {
+    position: relative;
+    top: 45%;
+    z-index: 1;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#ad-image-preloader__container p {
+    color: #e8e8e8;
+    margin: 0;
+}
+
+#ad-image-preloader__container .loading-message {
+}
+
+#ad-image-preloader__container .loading-failure-message {
+    color: #d77171;
+}
+
+#ad-image-preloader__container .progress {
+    margin-top: 2em;
+}
